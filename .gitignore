@@ -1,0 +1,16 @@
+# Project specific
+backgrounds_generated/
+boards/
+pieces*/
+curves/
+out/
+dataset*/
+synthetic*/
+test_videos/
+*_log
+fens.txt
+game.pgn
+
+# Python / IDEs
+__pycache__/
+.idea/
