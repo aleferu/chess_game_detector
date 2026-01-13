@@ -25,7 +25,7 @@ pip install \
 
 `common.py` contains functions or classes used by multiple files.
 
-1. `gen_new_backgrounds.py` generates the backgrounds to be used in the dataset.
+1. `gen_new_backgrounds.py` generates the backgrounds to be used in the dataset with what's in `backgrounds/`.
 1. `fetcher.py` to download images of pieces and boards. Credits: [link](https://github.com/GiorgioMegrelli/chess.com-boards-and-pieces)
 1. `gen_ds.py` generates the synthetic dataset. It uses [this script](https://github.com/GiorgioMegrelli/chess.com-boards-and-pieces/blob/master/render_position.py) with some modifications, located at `render_position.py`.
 1. `check.py` helps check a sample of what `gen_ds.py` generates.
