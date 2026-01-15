@@ -172,7 +172,7 @@ if __name__ == "__main__":
     parser.add_argument("--initial-fen-suffix", default="w KQkq - 0 1", help="FEN suffix (turn, castling, etc)")
     parser.add_argument("--pgn-out", default="game.pgn", help="Output path for PGN file")
     parser.add_argument("--fen-out", default="fens.txt", help="Output path for FEN list file")
-    parser.add_argument("--orientation", default="b", help="w for white and b for black")
+    parser.add_argument("--orientation", default="w", help="w for white and b for black")
 
     args = parser.parse_args()
     main(args)
